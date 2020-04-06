@@ -25,7 +25,7 @@ h1{
 	font-style: bold;
 	
 	font-family: 'Liu Jian Mao Cao', cursive;
-	color: #21618C;
+	color: #A591C4 ;
 	font-size:40px;
 	font-weight: bold ;
 }
@@ -107,7 +107,7 @@ h2{
 }
 .content-left p{
 	
-	font-size: 20px;
+	
 	padding: 0px 0px;
 	font-weight: bold;
 	margin:5%;
@@ -117,21 +117,45 @@ h2{
 }
 .content-left table{
 	padding-top:0;
-	font-size: 20px;
+
 	font-weight: bold;
 	margin:5%;
 }
 .content-left ul{
 	padding-left:10px;
-	font-size: 20px;
+
 	font-weight: bold;
 	margin:5%;
 }
-.content-left a{
+
+.content-right{
+	margin-top:150px;
+	flex-basis: 40%;
+	height: 1200px;
+ 
+}
+.content-left h3{
+	text-decoration: underline;
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	font-size:22px;
+	margin-left:15px;
+}
+#content1{
+	transform: translateX(0px);
+	max-width:1200px;
+    font-size: 22px;	
+}
+#content2{
+	max-width:1200px;
+	font-size: 20px;
+}
+#content2 a{
 	visibility: visible;
 	width:150px;
 	display: block;
 	padding:8px 5px;
+	padding-left:15px;
 	border-radius: 20px;
 	text-decoration: none;
 	background-color:#ff7846;
@@ -140,31 +164,45 @@ h2{
 	margin-bottom:10px;
 	margin-left:20px;
 }
-.content-right{
-	margin-top:150px;
-	flex-basis: 40%;
-	height: 1200px;
- 
-}
-#content1{
-	transform: translateX(0px);
-	max-width:1200px;	
-}
-#content2{
-	max-width:1200px;
-	
+#content3 a{
+	visibility: visible;
+	width:150px;
+	display: block;
+	padding:8px 5px;
+	padding-left:5px;
+	border-radius: 20px;
+	text-decoration: none;
+	background-color:#ff7846;
+	color: #fff;
+	text-align: center;
+	margin-bottom:10px;
+	margin-left:20px;
 }
 #content3{
 	max-width:1200px;
-	
+	font-size: 22px;
 }
 #content4{
 	max-width:1200px;
-	
+	font-size: 22px;
 }
 #content5{
 	max-width:1200px;
-	
+	font-size: 19px;
+}
+#content5 a{
+	visibility: visible;
+	width:150px;
+	display: block;
+	padding:8px 5px;
+	padding-left:5px;
+	border-radius: 20px;
+	text-decoration: none;
+	background-color:#ff7846;
+	color: #fff;
+	text-align: center;
+	margin-bottom:10px;
+	margin-left:20px;
 }
 #btn1{
 	color:#ff7846;
@@ -178,10 +216,10 @@ h2{
 
 .more_info{
 	position: absolute;
-	
-	right:725px;
+	left:147px;
 	width:700px;
 	background-image: linear-gradient(to right, #A591C4 , white);
+	border: 1px solid black;
 	opacity: 0.6;
 
 }
@@ -248,4 +286,52 @@ h2{
 	font-size: 20px;
 	border-spacing: 5px;
 	border-collapse: separate;
+}
+.Achievements{
+	position: absolute;
+	left:147px;
+	width:700px;
+	background-image: linear-gradient(to right, #A591C4 , white);
+	border: 1px solid black;
+	opacity: 0.6;
+
+}
+.Achievements h2{
+	text-decoration: underline;
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	font-size:30px;
+	margin-left:15px;
+	color: black;
+}
+.Achievements ul{
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	margin-left:15px;
+	margin-bottom:15px;
+	padding-left: 10px;
+}
+.Project{
+	position: relative;
+	left:147px;
+	width:700px;
+	background-image: linear-gradient(to right, #A591C4 , white);
+	border: 1px solid black;
+	opacity: 0.6;
+
+}
+.Project h2{
+	text-decoration: underline;
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	font-size:30px;
+	margin-left:15px;
+	color: black;
+}
+.Project ul{
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	margin-left:15px;
+	margin-bottom:15px;
+	padding-left:10px;
 }

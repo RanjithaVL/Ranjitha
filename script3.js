@@ -39,6 +39,12 @@ anime.timeline({loop: true})
   var contact = document.getElementById("contact");
   contact.style.display="none";
   
+   var achieve = document.getElementById("achievements");
+  achievements.style.display="none";
+  
+   var project = document.getElementById("projects");
+  projects.style.display="none";
+  
   function openHome(){
 	  content1.style.transform = "translateX(0)";
 	   content2.style.transform = "translateX(260%)";
@@ -59,6 +65,8 @@ anime.timeline({loop: true})
 		content5.style.transitionDelay ="0s";
 		  contact.style.display="none";
 		moreinfo.style.display="none";
+		achievements.style.display="none";
+		 projects.style.display="none";
 		 }
    function openPI(){
 	  content1.style.transform = "translateX(260%)";
@@ -80,6 +88,8 @@ anime.timeline({loop: true})
 		content5.style.transitionDelay ="0s";
 		  contact.style.display="none";
 		moreinfo.style.display="none";
+		achievements.style.display="none";
+		 projects.style.display="none";
   }
    function openAD(){
 	  content1.style.transform = "translateX(260%)";
@@ -101,7 +111,8 @@ anime.timeline({loop: true})
 		content5.style.transitionDelay ="0s";
 		  contact.style.display="none";
 		moreinfo.style.display="none";
-		
+		achievements.style.display="none";
+		 projects.style.display="none";
   }
    function openHobbies(){
 	  content1.style.transform = "translateX(260%)";
@@ -123,6 +134,8 @@ anime.timeline({loop: true})
 		content5.style.transitionDelay ="0s";
 		  contact.style.display="none";
 		moreinfo.style.display="none";
+		achievements.style.display="none";
+		 projects.style.display="none";
   }
    function openBio(){
 	  content1.style.transform = "translateX(260%)";
@@ -144,6 +157,8 @@ anime.timeline({loop: true})
 		content5.style.transitionDelay ="0.5s";
 		  contact.style.display="none";
 		moreinfo.style.display="none";
+		achievements.style.display="none";
+		 projects.style.display="none";
   }
   
  function openMoreinfo() {
@@ -152,4 +167,12 @@ anime.timeline({loop: true})
  
   function openContact() {
 	 contact.style.display="block";
+ }
+  function openAchieve() {
+	 achievements.style.display="block";
+	 projects.style.display="none";
+ }
+  function openProject() {
+	 projects.style.display="block";
+	 achievements.style.display="none";
  }
